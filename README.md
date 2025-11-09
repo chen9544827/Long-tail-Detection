@@ -1,7 +1,7 @@
-# 🐷 YOLOv8 Long-Tailed Pig Detection
+ YOLOv8 Long-Tailed  Detection
 
 > **CVPDL 2025 HW2: 長尾物件偵測 (Long-Tailed Object Detection)**  
-> 使用 YOLOv8m 解決嚴重類別不平衡的豬隻偵測問題
+> 使用 YOLOv8m 解決嚴重類別不平衡偵測問題
 
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c?logo=pytorch)](https://pytorch.org/)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)](https://www.python.org/)
@@ -646,12 +646,6 @@ python inference_yolo.py
 python analyze_submission.py
 ```
 
-### Step 5: Kaggle 提交
-
-1. 前往 [Kaggle Competition](https://www.kaggle.com/competitions/cvpdl-hw2)
-2. 點擊 "Submit Predictions"
-3. 上傳 `kaggle_submission/submission.csv`
-4. 查看 Public Score
 
 ---
 
@@ -971,3 +965,4 @@ model.train(cls_pw=[1.0, 12.68, 6.15, 3.55])
 
 **最後更新**: 2025-01-XX  
 **版本**: 2.0 (YOLOv8 Only)
+
